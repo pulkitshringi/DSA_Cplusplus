@@ -1,16 +1,18 @@
 #include <iostream> 
 using namespace std;
 int main (){
-    int budget;
-    cout << "Enter your budget : ";
-    cin >> budget;
-    if(budget>20000){
-        cout << "you can buy volvo :) " << endl;
+    int x;
+    cout << ("Enter x : ");
+    cin >> x;
+    if(x>20){
+        if (x==30){
+            cout << ("x equal to 30") << endl;
+        }
+        else {
+            cout << ("x not equal to 30") << endl;
+        }
     }
-    else if(budget>10000){    
-        cout << "you can't buy too lol " << endl;
-    }
-    else if(budget>5000){
-        cout << ("Don't event try") << endl;
+    else {
+        cout << ("x is less than 20") << endl;
     }
 }
