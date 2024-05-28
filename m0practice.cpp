@@ -1,14 +1,14 @@
-#include <iostream> 
+#include <iostream>
 using namespace std;
-void party(){
-    cout << "Balle Balle" << endl;
-}
-namespace pulkit{
-    void party(){
-        cout << "Nacho Nacho" << endl;
-    }
-}
 int main(){
-party();
-pulkit::party();
+    int f =0;
+    int s=1;
+    int temp=0;
+    for(int i =0;i<10;i++){
+        cout << f+s << endl;
+        temp=s;
+        s=f+s;
+        f=temp;   
+    }
+    return 0;
 }
