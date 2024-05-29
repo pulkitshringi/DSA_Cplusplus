@@ -1,17 +1,21 @@
-#include <iostream>
+/*
+Pattern
+N = 4
+1
+22
+333
+4444
+*/
+#include<iostream>
 using namespace std;
+
 int main(){
-    int r;
-    int c;
-    cout << "Enter rows : ";
-    cin >> r; 
-    cout << "Enter cols : ";
-    cin >> c;
-    for(int i =0;i<r;i++){
-        for (int j =0;j<c;j++){
-            cout << "*";
+  int i,j,n;
+    cin>>n;
+    for(i=1;i<=n;i++){
+        for(j=1;j<=i;j++){
+	        cout<<i;
         }
-        cout << endl;
+    cout<<endl;
     }
-    return 0;
 }
