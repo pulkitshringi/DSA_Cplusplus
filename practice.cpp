@@ -1,9 +1,14 @@
 #include <iostream>
 using namespace std;
 int main(){
-    for(int i=0;i<3;i++){
-        cout << "--> ";
-        for(int j=0;j<2;j++){
+    int r;
+    int c;
+    cout << "Enter rows : ";
+    cin >> r; 
+    cout << "Enter cols : ";
+    cin >> c;
+    for(int i =0;i<r;i++){
+        for (int j =0;j<c;j++){
             cout << "*";
         }
         cout << endl;
