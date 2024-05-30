@@ -1,11 +1,16 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int n,fact=1;
+    int n;
     cin >> n;
-    for(int i=n;i>1;i--){
-        fact*=i;
+    for(int i =2;i<n;i++){
+        if(n%i==0){
+            cout << "Not Prime" << endl;
+            break;
+        }
+    else if(i==n-1){
+        cout << "Prime" << endl;
     }
-    cout << fact << endl;
+    }
     return 0;
 }
