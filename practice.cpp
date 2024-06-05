@@ -1,16 +1,7 @@
-#include <iostream>
+#include <iostream> 
 using namespace std;
-int main(){
-    int n;
-    cin >> n;
-    for(int i =2;i<n;i++){
-        if(n%i==0){
-            cout << "Not Prime" << endl;
-            break;
-        }
-    else if(i==n-1){
-        cout << "Prime" << endl;
-    }
-    }
-    return 0;
-}
+int main () {
+int arr[5] = {1, 2, 3, 4, 5};
+cout << arr[5];
+return 0;
+}ow
