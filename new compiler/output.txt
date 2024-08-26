@@ -1,3 +1,1 @@
-Vector size : 3
-33
-43
+Stack elements : 3 2 1 
