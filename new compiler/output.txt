@@ -1,1 +1,1 @@
-Stack elements : 3 2 1 
+12
