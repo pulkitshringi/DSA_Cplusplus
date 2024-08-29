@@ -1,19 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-set<int> st;
-st.insert(43);
-st.insert(12);
-st.insert(15);
-st.insert(15);
-st.insert(2);
-auto it = st.upper_bound(2);
-if(it!=st.end()){
-  cout << *it;
-}
-else{
-  cout << "no element";
-}
-
+  vector<int> vec = {23,12,3,4,4,34,23,4};
+  auto four = find(vec.begin(),vec.end(),4);
+  cout << *four << endl;
+  cout <<  "Index : " << distance(vec.begin(),four);
 return 0;
 }
